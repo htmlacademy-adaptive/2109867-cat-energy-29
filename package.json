@@ -9,7 +9,7 @@
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
-    "stylelint": "stylelint .",
+    "stylelint": "stylelint **/*.css --fix",
     "lint": "npm run editorconfig",
     "build": "echo 'Build task'",
     "start": "echo 'Start task'"
