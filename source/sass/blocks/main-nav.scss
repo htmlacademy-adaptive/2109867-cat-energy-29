@@ -1,9 +1,22 @@
 .main-nav__wrapper {
-    display: none;
-    list-style-type: none;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: uppercase;
+  position: relative;
+}
+
+.main-nav__wrapper-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+
+.item__link{
+  display: inline-block;
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
 }

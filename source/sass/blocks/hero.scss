@@ -1,0 +1,27 @@
+.hero {
+  color: #ffffff;
+  text-align: center;
+  background: linear-gradient(#68b738d9 63%, #ffffff 37%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__title {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.title__slogan {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 14px;
+
+  }
+
+.hero__link {
+  padding: 7px 44px;
+
+}
