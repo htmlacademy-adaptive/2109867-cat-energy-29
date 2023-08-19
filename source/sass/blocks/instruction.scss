@@ -1,0 +1,17 @@
+.instruction {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.instruction__title {
+  margin-bottom: 42px;
+}
+
+.instruction__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 94px 20px;
+}
