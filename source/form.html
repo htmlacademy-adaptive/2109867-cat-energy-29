@@ -19,68 +19,68 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__wrapper-list list">
           <li class="list__item item">
-            <a class="item__link" href="index.html">Главная</a>
+            <a class="item__link" href="./index.html">Главная</a>
           </li>
           <li class="list__item item">
-            <a class="item__link" href="#">Каталог продукции</a>
+            <a class="item__link" href="./catalog.html">Каталог продукции</a>
           </li>
           <li class="list__item item item--current">
-            <a class="item__link" href="#">Подбор программы</a>
+            <a class="item__link" href="./form.html">Подбор программы</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-  <main class="main-container">
-    <form class="form" action="#" method="post">
+  <main class="main-container container">
+    <form class="form" action="https://echo.htmlacademy.ru/" method="post">
       <h1 class="form__title">Подбор программы</h1>
       <p class="form__description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
-      <fieldset class="form-data">
+      <fieldset class="form-data form-style">
         <legend class="visually-hidden">Данные котика</legend>
         <ul class="form-data__list">
-          <li class="form-data__item">
+          <li class="form-data__item form-list">
             <label class="form__label" for="name">Имя:*</label>
             <input class="form__input" type="text" name="name" placeholder="Барсик" id="name" required>
           </li>
-          <li class="form-data__item">
+          <li class="form-data__item form-list">
             <label class="form__label" for="weight">Вес (кг):*</label>
             <input class="form__input" type="number" name="weight" placeholder="7" id="weight" min="0" max="125"
               required>
           </li>
-          <li class="form-data__item">
+          <li class="form-data__item form-list">
             <label class="form__label" for="age">Возраст (лет):</label>
             <input class="form__input" type="number" name="age" placeholder="7" id="age" min="0" max="125"
               required>
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form-appeal">
+      <fieldset class="form-appeal form-style">
         <legend class="visually-hidden">Причина обращения</legend>
         <ul class="form-appeal__list">
-          <li class="form-appeal__item">
+          <li class="form-appeal__item form-list">
             <input class="form-appeal__input input-type-radio" type="radio" name="appeal" id="fit" value="похудение" checked>
             <label class="form-appeal__name" for="fit">похудение</label>
           </li>
-          <li class="form-appeal__item">
+          <li class="form-appeal__item form-list">
             <input class="form-appeal__input input-type-radio" type="radio" name="appeal" id="fat" value="набор массы">
             <label class="form-appeal__name" for="fat">Набор массы</label>
           </li>
-          <li class="form-appeal__item">
+          <li class="form-appeal__item form-list">
             <input class="form-appeal__input input-type-radio" type="radio" name="appeal" id="question"
               value="Не знаю (Нужен ваш совет)">
             <label class="form-appeal__name" for="question">Не знаю (Нужен ваш совет)</label>
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form-contacts">
+      <fieldset class="form-contacts form-style">
         <legend class="form-contacts__title">Контактные данные (владельца кота)</legend>
         <ul class="form-contacts__list">
-          <li class="form-contacts__item">
+          <li class="form-contacts__item form-list">
             <label class="form-contacts__email" for="email">E-mail:*</label>
             <input class="form-contacts__input" type="email" name="mail" placeholder="kuklachev@gmail.com" id="email"
               required>
           </li>
-          <li class="form-contacts__item">
+          <li class="form-contacts__item form-list">
             <label class="form-contacts__phone" for="number">Телефон:*</label>
             <input class="form-contacts__input" type="tel" name="phone" placeholder="8 (960) 900-60-90" id="number"
               maxlength="21" required>
@@ -91,22 +91,22 @@
         <label class="form-comment__title" for="message">Комментарий</label>
         <textarea name="comment" placeholder="Расскажите обо всех повадках кота" id="message"></textarea>
       </div>
-      <fieldset class="form-extra">
+      <fieldset class="form-extra form-style">
         <legend class="form-extra__title">Дополнительно</legend>
         <ul class="form-extra__list">
-          <li class="form-extra__item">
+          <li class="form-extra__item form-list">
             <input class="form-extra__input input-type-checkbox" type="checkbox" name="sweetener" id="sweetener" checked>
             <label class="form-extra__name" for="sweetener">сахарозаменитель</label>
           </li>
-          <li class="form-extra__item">
+          <li class="form-extra__item form-list">
             <input class="form-extra__input input-type-checkbox" type="checkbox" name="water" id="water">
             <label class="form-extra__name" for="water">питьевая вода</label>
           </li>
-          <li class="form-extra__item">
+          <li class="form-extra__item form-list">
             <input class="form-extra__input input-type-checkbox" type="checkbox" name="milk" id="milk">
             <label class="form-extra__name" for="milk">молоко</label>
           </li>
-          <li class="form-extra__item">
+          <li class="form-extra__item form-list">
             <input class="form-extra__input input-type-checkbox" type="checkbox" name="vitamins" id="vitamins">
             <label class="form-extra__name" for="vitamins">витамины</label>
           </li>
@@ -119,7 +119,7 @@
     </form>
 
   <section class="invite invite--index">
-    <div class="invite__wrapper">
+    <div class="invite__wrapper special-color">
       <div class="invite__inner">
         <h2 class="invite__title">Приглашаем к сотрудничеству дилеров!</h2>
           <div class="invite__adress">
@@ -131,7 +131,6 @@
     <div class="invite__map">
     </div>
   </section>
-
 </main>
 
 <footer class="footer">
