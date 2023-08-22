@@ -1,5 +1,8 @@
 .main-nav__wrapper {
   position: relative;
+  width: 100%;
+    margin-bottom: -13px;
+    margin-top: 13px;
 }
 
 .main-nav__wrapper-list {
@@ -7,10 +10,27 @@
   padding: 0;
   list-style: none;
   display: none;
+  text-align: center;
 }
 
-.item__link{
-  display: inline-block;
+.item__link {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: #111111;
+  position: relative;
+  display: block;
+  padding: 25px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-top: 1px solid #e6e6e6;
+  color: #111111;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+
+  /*display: inline-block;
   color: #000000;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
@@ -18,5 +38,5 @@
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: none;*/
 }
