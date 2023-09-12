@@ -1,1 +1,17 @@
-// Начните писать стили здесь
+@use "./blocks/main-header.scss";
+@use "./global/fonts.scss";
+@use "./blocks/demo.scss";
+@use "./blocks/footer.scss";
+@use "./blocks/form.scss";
+@use "./blocks/hero.scss";
+@use "./blocks/instruction.scss";
+@use "./blocks/invite.scss";
+@use "./blocks/programs-list.scss";
+@use "./blocks/secondary-catalog.scss";
+@use "./blocks/main-nav.scss";
+@use "./global/buttons.scss";
+@use "./global/global.scss";
+@use "./blocks/catalog.scss";
+@use "./blocks/crad-catalog.scss";
+@use "./blocks/secondary-card.scss";
+
